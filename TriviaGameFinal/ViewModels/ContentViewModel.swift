@@ -2,7 +2,7 @@
 //  ContentViewModel.swift
 //  TriviaGameFinal
 //
-//  Created by Fatima Zekic.
+//  Created by Fatima Zekic, Noor EL-Hawwat, and Vithika Shah.
 //
 
 import Foundation
@@ -30,7 +30,6 @@ extension ContentView {
                 errorMessage = serviceResponse.error!
                 return
             }
-            
             if serviceResponse.error != nil {
                 self.errorMessage = serviceResponse.error!
             }

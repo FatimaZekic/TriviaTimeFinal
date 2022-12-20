@@ -2,7 +2,7 @@
 //  TriviaOptionsViewModel.swift
 //  TriviaGameFinal
 //
-//  Created by Fatima Zekic.
+//  Created by Fatima Zekic, Noor EL-Hawwat, and Vithika Shah.
 //
 
 import Foundation

@@ -2,7 +2,7 @@
 //  QuestionsView.swift
 //  TriviaGameFinal
 //
-//  Created by Fatima Zekic on 12/19/22.
+//  Created by Fatima Zekic, Noor EL-Hawwat, and Vithika Shah.
 //
 
 import SwiftUI
@@ -49,7 +49,7 @@ fileprivate struct AnswerBox: View {
                                     .padding()
                             }
                         }
-                } // button
+                }
                 .background(markCorrect())
                 .cornerRadius(12)
                 .frame(width: geometry.size.width) // Centers the ZStack

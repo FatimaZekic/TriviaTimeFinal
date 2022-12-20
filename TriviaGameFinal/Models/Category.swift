@@ -2,7 +2,7 @@
 //  Category.swift
 //  TriviaGameFinal
 //
-//  Created by Fatima Zekic on 12/19/22.
+//  Created by Fatima Zekic, Noor EL-Hawwat, and Vithika Shah.
 //
 
 import Foundation

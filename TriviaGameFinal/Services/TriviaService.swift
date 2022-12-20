@@ -2,14 +2,13 @@
 //  TriviaService.swift
 //  TriviaGameFinal
 //
-//  Created by Fatima Zekic on 12/19/22.
+//  Created by Fatima Zekic, Noor EL-Hawwat, and Vithika Shah.
 //
 
 import Foundation
 
 class TriviaService {
     public func fetchTriviaQuestions(difficulty: Difficulty, category: TriviaCategory, triviaType: TriviaType, quantity: Int) async -> (questions: Array<Question>, error: String?) {
-        // Sample https://opentdb.com/api.php?amount=10&category=10&difficulty=medium&type=multiple
         var urlString: String = "https://opentdb.com/api.php?amount=\(quantity)&category=\(category.id)"
         if difficulty != Difficulty.any {
             urlString += "&difficulty=\(difficulty.rawValue)"

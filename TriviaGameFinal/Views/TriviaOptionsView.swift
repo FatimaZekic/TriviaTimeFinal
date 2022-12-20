@@ -2,7 +2,7 @@
 //  TriviaOptionsView.swift
 //  TriviaGameFinal
 //
-//  Created by Fatima Zekic on 12/19/22.
+//  Created by Fatima Zekic, Noor EL-Hawwat, and Vithika Shah.
 //
 
 import SwiftUI
@@ -93,7 +93,6 @@ struct TriviaOptionsView: View {
                         isSelected: viewModel.isTriviaTypeActive(.trueFalse)
                     )
                 }
-                
                 
                 VStack {
                     Text("Number of questions")

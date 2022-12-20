@@ -2,11 +2,10 @@
 //  ContentView.swift
 //  TriviaGameFinal
 //
-//  Created by Fatima Zekic on 12/19/22.
+//  Created by Fatima Zekic, Noor EL-Hawwat, and Vithika Shah.
 //
 
 import SwiftUI
-
 
 struct ContentView: View {
     @StateObject private var viewModel = ViewModel()
@@ -43,7 +42,7 @@ struct ContentView: View {
                         }
                     }
                 }
-                .navigationTitle("Trivia Time")
+                .navigationTitle("Pick a genre!")
                 }
                 .onAppear {
                     Task {
